@@ -134,6 +134,7 @@ int SMTX_read(SMatrixType A[])
     A->R[0].value = n-1;
 }
 
+
 /** print the sparse matrix A in the following format
     Line 1: print"Rows = ??, Cols = ??, # of non-zero entries = ??"
     Line 2 ~ ??: print "<Ri, Ci, entry-value>," one 3-tuple per line.**/
